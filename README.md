@@ -7,6 +7,8 @@ Install aerolab on macOS:
 brew install aerospike/tools/aerolab
 ```
 
+#### AeroLab Config
+
 Check the aerolab config:
 ```bash
 aerolab config backend
@@ -24,4 +26,13 @@ aerolab config backend \
   --region ap-south-1 \
   --aws-profile default \
   --aws-nopublic-ip
+```
+
+#### AeroLab Cluster Setup
+
+Create a new cluster:
+```bash
+aerolab cluster create \
+  --name aerospike-cluster \
+  --count 2
 ```
