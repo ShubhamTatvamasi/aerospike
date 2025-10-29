@@ -2,7 +2,7 @@
 
 ---
 
-### AeroLab
+## AeroLab
 
 Install aerolab on macOS:
 ```bash
@@ -11,7 +11,7 @@ brew install aerospike/tools/aerolab
 
 ---
 
-#### AeroLab Config
+### AeroLab Config
 
 Check the aerolab config:
 ```bash
@@ -34,7 +34,7 @@ aerolab config backend \
 
 ---
 
-#### AeroLab Cluster Setup
+### AeroLab Cluster Setup
 
 List the current clusters:
 ```bash
