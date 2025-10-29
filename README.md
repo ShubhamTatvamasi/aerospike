@@ -50,7 +50,7 @@ Create a new cluster:
 ```bash
 aerolab cluster create \
   --name aerospike-cluster \
-  --count 1 \
+  --count 2 \
   --instance-type t4g.medium \
   --distro amazon \
   --distro-version 2023 \
