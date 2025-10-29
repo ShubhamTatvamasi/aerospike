@@ -50,7 +50,7 @@ Create a new cluster:
 ```bash
 aerolab cluster create \
   --name aerospike-cluster \
-  --count 2 \
+  --count 1 \
   --instance-type t4g.medium \
-  --aws-disk type=gp3,size=50
+  --disk type=gp3,size=50
 ```
