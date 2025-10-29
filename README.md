@@ -30,9 +30,16 @@ aerolab config backend \
 
 #### AeroLab Cluster Setup
 
+List the current clusters:
+```bash
+aerolab cluster list
+```
+
 Create a new cluster:
 ```bash
 aerolab cluster create \
   --name aerospike-cluster \
-  --count 2
+  --count 2 \
+  --instance-type t4g.medium \
+  --aws-disk type=gp3,size=50
 ```
