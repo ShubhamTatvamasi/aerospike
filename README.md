@@ -60,7 +60,8 @@ aerolab cluster create \
 Delete cluster:
 ```bash
 aerolab cluster destroy \
-  --name aerospike-cluster
+  --name aerospike-cluster \
+  --force
 ```
 
 
