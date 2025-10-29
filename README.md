@@ -54,3 +54,11 @@ aerolab cluster create \
   --instance-type t4g.medium \
   --disk type=gp3,size=50
 ```
+
+Delete cluster:
+```bash
+aerolab cluster destroy \
+  --name aerospike-cluster
+```
+
+
