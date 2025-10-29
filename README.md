@@ -52,7 +52,9 @@ aerolab cluster create \
   --name aerospike-cluster \
   --count 1 \
   --instance-type t4g.medium \
-  --disk type=gp3,size=50
+  --distro amazon \
+  --distro-version 2023 \
+  --aws-disk "type=gp3,size=50"
 ```
 
 Delete cluster:
