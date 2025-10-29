@@ -30,6 +30,13 @@ aerolab config backend \
   --aws-profile default
 ```
 
+Allow public IP to create cluster:
+```bash
+aerolab config defaults \
+  --key Cluster.Create.Aws.PublicIP \
+  --value true
+```
+
 ---
 
 ### AeroLab Cluster Setup
