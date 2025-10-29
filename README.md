@@ -3,7 +3,7 @@
 
 ## AeroLab
 
-Install aerolab on macOS:
+Install `aerolab` on macOS:
 ```bash
 brew install aerospike/tools/aerolab
 ```
