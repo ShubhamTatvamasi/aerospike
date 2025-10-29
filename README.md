@@ -22,5 +22,6 @@ Configure aerolab for aws
 aerolab config backend \
   --type aws \
   --region ap-south-1 \
+  --aws-profile default \
   --aws-nopublic-ip
 ```
